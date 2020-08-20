@@ -1,0 +1,13 @@
+{
+	"hooks": [
+        {
+            "name": "dw.ocapi.shop.order.afterPATCH",
+            "script": "./ocapi/afterPATCH.js"
+        },
+        {
+            "name": "dw.ocapi.shop.order_search.modifyPOSTResponse",
+            "script": "./ocapi/modifyPOSTResponse.js"
+        }
+
+	]
+}
